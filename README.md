@@ -10,3 +10,6 @@
 * `babel` Transpiles js to the `@babel/preset-env` preset
 * `dotenv` Allows variable injection for sensitive data
 * `nodemon` Reload on file changes
+
+#### Environmental Variables
+All env variables are injected via a webpack plugin which is based on the current mode e.g. `.env.production` & `.env.development`
