@@ -1,0 +1,7 @@
+.env
+.idea
+dist
+log
+test
+node_modules
+yarn.lock
